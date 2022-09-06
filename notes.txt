@@ -1,0 +1,5 @@
+run CUDA_VISIBLE_DEVICES=0 python eval_local.py -c configs/emoji.yaml inside version_110 to produce separated layers
+
+numbers of paths is specified in model file's init
+
+run CUDA_VISIBLE_DEVICES=0 python modified_run.py -c configs/modified_emoji.yaml in root to train
